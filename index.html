@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="ReCall-SLAM: Long-Horizon RGB-D SLAM through Recurring Local Reconstruction. Interactive 3D reconstruction comparisons.">
+  <title>ReCall-SLAM: Long-Horizon RGB-D SLAM through Recurring Local Reconstruction</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script type="module" src="app3d.js"></script>
+</head>
+<body>
+  <header class="paper-hero" id="top">
+    <h1><strong class="title-brand">ReCall-SLAM:</strong> Long-Horizon RGB-D SLAM through Recurring Local Reconstruction</h1>
+    <p class="authors">Anonymous Authors</p>
+  </header>
+
+  <main>
+    <section class="hero-results site-width" id="results" aria-label="Long-sequence reconstruction comparison">
+      <figure class="hero-video media-frame">
+        <div class="media-head"><span class="method-pill ours-pill">ReCall-SLAM</span><span id="long-video-scene"><span id="long-video-scene-name">Classrooms</span> · <strong id="long-video-frame-count">27,002</strong> frames</span><span class="view-tag">TOP VIEW</span></div>
+        <video id="long-ours-video" autoplay muted loop playsinline controls preload="metadata" poster="assets/videos/highschool/ours.webp"><source src="assets/videos/highschool/ours.mp4" type="video/mp4"></video>
+      </figure>
+      <div class="baseline-videos" id="baseline-videos"></div>
+      <div class="subheading final-subheading"><h3>Explore the final 3D reconstruction</h3><span>Drag to rotate · scroll to zoom</span></div>
+      <div class="viewer-pair" id="long-viewers">
+        <div class="viewer-slot" data-side="ours"><div class="viewer-bar"><span class="method-pill ours-pill">ReCall-SLAM</span><span class="track-key" title="Trajectory from start to end"><span class="track-ramp"></span>trajectory</span></div><div class="viewer-canvas"></div><span class="viewer-state">Loading 3D…</span></div>
+        <div class="viewer-slot" data-side="baseline"><div class="viewer-bar"><label class="select-wrap"><span class="sr-only">Select baseline</span><select id="long-method"></select></label><span class="track-key" title="Trajectory from start to end"><span class="track-ramp"></span>trajectory</span></div><div class="viewer-canvas"></div><span class="viewer-state">Loading 3D…</span></div>
+      </div>
+      <p class="case-note" id="long-note"></p>
+      <div class="scene-switch" id="long-scenes" aria-label="Long-sequence scenes"></div>
+    </section>
+
+    <section class="insight-band" id="insight" aria-labelledby="insight-title"><div class="site-width">
+      <h2 id="insight-title">How it works</h2>
+      <div class="insight-copy"><p>RGB-D SLAM can be viewed as repeatedly solving the <strong>same local problem at increasing map scales</strong>: nearby views recover camera motion and local structure, wider observations reconcile geometry over a region, and views around a place revisited much later relate distant parts of the trajectory.</p><p>Based on this insight, we present ReCall-SLAM, a training-free system that <strong>retains observation history</strong> and repeatedly poses these bounded reconstruction problems to <strong>one pretrained Pi3X model</strong>. <strong>Bounded regional graphs and a compact global graph</strong> integrate these predictions into a persistent, revisable map while all levels advance asynchronously.</p></div>
+      <a class="pipeline-figure" href="assets/pipeline-figure.webp" target="_blank" rel="noopener" aria-label="Open the full pipeline figure"><img src="assets/pipeline-figure.webp" alt="ReCall-SLAM pipeline showing recurring RGB-D reconstruction at local, context, and submap levels" width="3629" height="1758" loading="lazy"></a>
+    </div></section>
+
+    <section class="gallery site-width" id="fastcamo" aria-labelledby="fast-title">
+      <div class="section-heading"><p class="eyebrow">MORE 3D COMPARISONS</p><h2 id="fast-title">FastCaMo-Real</h2></div>
+      <div class="case-carousel"><button class="carousel-arrow prev" id="fast-prev" type="button" aria-label="Previous FastCaMo scene">‹</button><div class="case-content">
+        <div class="viewer-pair" id="fast-viewers"><div class="viewer-slot" data-side="ours"><div class="viewer-bar"><span class="method-pill ours-pill">ReCall-SLAM</span></div><div class="viewer-canvas"></div><span class="viewer-state">Loading 3D…</span></div><div class="viewer-slot" data-side="baseline"><div class="viewer-bar"><label class="select-wrap"><span class="sr-only">Select FastCaMo baseline</span><select id="fast-method"></select></label></div><div class="viewer-canvas"></div><span class="viewer-state">Loading 3D…</span></div></div>
+        <div class="case-pagination" id="fast-dots" aria-label="FastCaMo scene pages"></div><p class="case-note" id="fast-note"></p>
+      </div><button class="carousel-arrow next" id="fast-next" type="button" aria-label="Next FastCaMo scene">›</button></div>
+    </section>
+
+    <section class="gallery oxford-band" id="oxford" aria-labelledby="oxford-title"><div class="site-width">
+      <div class="section-heading"><h2 id="oxford-title">Oxford Spires</h2></div>
+      <div class="case-carousel"><button class="carousel-arrow prev" id="oxford-prev" type="button" aria-label="Previous Oxford route">‹</button><div class="case-content">
+        <div class="viewer-pair" id="oxford-viewers"><div class="viewer-slot" data-side="ours"><div class="viewer-bar"><span class="method-pill ours-pill">ReCall-SLAM</span><span class="track-key" title="Trajectory from start to end"><span class="track-ramp"></span>trajectory</span></div><div class="viewer-canvas"></div><span class="viewer-state">Loading 3D…</span></div><div class="viewer-slot" data-side="baseline"><div class="viewer-bar"><label class="select-wrap"><span class="sr-only">Select Oxford baseline</span><select id="oxford-method"></select></label><span class="track-key" title="Trajectory from start to end"><span class="track-ramp"></span>trajectory</span></div><div class="viewer-canvas"></div><span class="viewer-state">Loading 3D…</span></div></div>
+        <div class="trajectory-pair"><figure class="trajectory-card"><figcaption>ReCall-SLAM <span>vs GT · top view</span></figcaption><svg id="oxford-ours-trajectory" viewBox="0 0 1000 330" role="img" aria-label="ReCall-SLAM trajectory compared with ground truth"></svg></figure><figure class="trajectory-card"><figcaption><span id="oxford-trajectory-method">Baseline</span> <span>vs GT · top view</span></figcaption><svg id="oxford-baseline-trajectory" viewBox="0 0 1000 330" role="img" aria-label="Baseline trajectory compared with ground truth"></svg></figure></div>
+        <div class="trajectory-legend"><span class="gt-key">Ground truth</span><span class="method-key">Method trajectory</span></div>
+        <div class="case-pagination" id="oxford-dots" aria-label="Oxford route pages"></div><p class="case-note" id="oxford-note"></p>
+      </div><button class="carousel-arrow next" id="oxford-next" type="button" aria-label="Next Oxford route">›</button></div>
+    </div></section>
+  </main>
+  <footer><span>ReCall-SLAM</span><a href="ASSET_STATUS.md">Data availability</a><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>

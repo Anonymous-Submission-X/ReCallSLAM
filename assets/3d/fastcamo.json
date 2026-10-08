@@ -1,0 +1,1951 @@
+{
+  "group": "fastcamo",
+  "no_trajectory_ground_truth": true,
+  "show_trajectories": false,
+  "scenes": {
+    "apartment_1": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/apartment_1/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 2853,
+        "source_time_range": [
+          1610782892362.0,
+          1610782987423.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2249176,
+        "display_up": [
+          0.007586540597834794,
+          0.012554196396549446,
+          0.999892412489761
+        ],
+        "source_id": "fastcamo/apartment_1/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/apartment_1/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 2853,
+        "source_time_range": [
+          1610782892362.0,
+          1610782987423.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2244817,
+        "display_up": [
+          -0.024976454993538177,
+          -0.002512959415891617,
+          0.9996848812155408
+        ],
+        "source_id": "fastcamo/apartment_1/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/apartment_1/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 2853,
+        "source_time_range": [
+          1610782892362.0,
+          1610782987423.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2244709,
+        "display_up": [
+          0.25771474514241577,
+          0.21391164233341942,
+          0.9422446176075504
+        ],
+        "source_id": "fastcamo/apartment_1/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/apartment_1/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 842,
+        "source_time_range": [
+          1610782930782.0,
+          1610782958812.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2227522,
+        "display_up": [
+          -0.0908044804800234,
+          -0.09383402706344206,
+          0.9914382087098572
+        ],
+        "source_id": "fastcamo/apartment_1/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/apartment_1/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 2853,
+        "source_time_range": [
+          1610782892362.0,
+          1610782987423.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2252974,
+        "display_up": [
+          -0.05301757783495146,
+          0.027122819160301515,
+          0.9982251695490916
+        ],
+        "source_id": "fastcamo/apartment_1/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/apartment_1/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 2853,
+        "source_time_range": [
+          1610782892362.0,
+          1610782987423.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2251190,
+        "display_up": [
+          -0.04509963682124213,
+          0.1619360134696459,
+          0.9857701305579059
+        ],
+        "source_id": "fastcamo/apartment_1/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/apartment_1/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 2853,
+        "source_time_range": [
+          1610782892362.0,
+          1610782987423.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2257597,
+        "display_up": [
+          0.4426507888589585,
+          -0.8951508178802419,
+          -0.05258604730226272
+        ],
+        "source_id": "fastcamo/apartment_1/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/apartment_1/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 2853,
+        "source_time_range": [
+          1610782892362.0,
+          1610782987423.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2252405,
+        "display_up": [
+          0.1467006979464054,
+          -0.9891799864791585,
+          -0.0013636609289972078
+        ],
+        "source_id": "fastcamo/apartment_1/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "apartment_2": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/apartment_2/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 2284,
+        "source_time_range": [
+          1610787655025.0,
+          1610787731125.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2236507,
+        "display_up": [
+          0.08587002489403252,
+          0.01631010677615456,
+          0.996172836028793
+        ],
+        "source_id": "fastcamo/apartment_2/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/apartment_2/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 2284,
+        "source_time_range": [
+          1610787655025.0,
+          1610787731125.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2230319,
+        "display_up": [
+          -0.14803892246184333,
+          0.037238754113730774,
+          0.9882801994517514
+        ],
+        "source_id": "fastcamo/apartment_2/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/apartment_2/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 2284,
+        "source_time_range": [
+          1610787655025.0,
+          1610787731125.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2236777,
+        "display_up": [
+          0.5848825396169863,
+          5.6922227905522716e-05,
+          0.81111800103995
+        ],
+        "source_id": "fastcamo/apartment_2/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/apartment_2/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 899,
+        "source_time_range": [
+          1610787655025.0,
+          1610787684955.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2232292,
+        "display_up": [
+          -0.06208239446594232,
+          0.11454844079966041,
+          0.9914758852376299
+        ],
+        "source_id": "fastcamo/apartment_2/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/apartment_2/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 2284,
+        "source_time_range": [
+          1610787655025.0,
+          1610787731125.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2237085,
+        "display_up": [
+          0.2785917978796321,
+          0.11455376530650853,
+          0.9535533781641674
+        ],
+        "source_id": "fastcamo/apartment_2/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/apartment_2/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 2284,
+        "source_time_range": [
+          1610787655025.0,
+          1610787731125.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2235824,
+        "display_up": [
+          0.08204969170860338,
+          0.029403876292543357,
+          0.9961943887362024
+        ],
+        "source_id": "fastcamo/apartment_2/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/apartment_2/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 2284,
+        "source_time_range": [
+          1610787655025.0,
+          1610787731125.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2235418,
+        "display_up": [
+          0.15216795407314618,
+          -0.9470665719740079,
+          -0.2826832538418121
+        ],
+        "source_id": "fastcamo/apartment_2/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/apartment_2/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 2284,
+        "source_time_range": [
+          1610787655025.0,
+          1610787731125.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2239793,
+        "display_up": [
+          0.019239574191321156,
+          -0.9974153770825397,
+          -0.06922719367583763
+        ],
+        "source_id": "fastcamo/apartment_2/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "gym": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/gym/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 4922,
+        "source_time_range": [
+          1610847887440.0,
+          1610848051472.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2271156,
+        "display_up": [
+          -0.038896418007391305,
+          -0.08926140963896527,
+          0.9952484460753803
+        ],
+        "source_id": "fastcamo/gym/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/gym/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 4922,
+        "source_time_range": [
+          1610847887440.0,
+          1610848051472.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2255247,
+        "display_up": [
+          0.01532592845396664,
+          0.011573011984517899,
+          -0.9998155736487756
+        ],
+        "source_id": "fastcamo/gym/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/gym/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 4922,
+        "source_time_range": [
+          1610847887440.0,
+          1610848051472.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2270523,
+        "display_up": [
+          0.11453763757874279,
+          -0.6216048077008101,
+          -0.7749119902421949
+        ],
+        "source_id": "fastcamo/gym/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/gym/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 2104,
+        "source_time_range": [
+          1610847959941.0,
+          1610848030038.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2256609,
+        "display_up": [
+          0.21894548712935147,
+          0.4286776510547193,
+          0.8765262946152268
+        ],
+        "source_id": "fastcamo/gym/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/gym/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 4922,
+        "source_time_range": [
+          1610847887440.0,
+          1610848051472.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2265884,
+        "display_up": [
+          0.5332493195744611,
+          -0.03171727262168925,
+          -0.8453633406948846
+        ],
+        "source_id": "fastcamo/gym/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/gym/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 4922,
+        "source_time_range": [
+          1610847887440.0,
+          1610848051472.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2270050,
+        "display_up": [
+          -0.027418655113499935,
+          -0.07819235813495773,
+          0.9965611734766017
+        ],
+        "source_id": "fastcamo/gym/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/gym/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 4922,
+        "source_time_range": [
+          1610847887440.0,
+          1610848051472.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2248677,
+        "display_up": [
+          0.12384763292264922,
+          -0.5349736259196518,
+          0.8357421751891174
+        ],
+        "source_id": "fastcamo/gym/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/gym/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 4922,
+        "source_time_range": [
+          1610847887440.0,
+          1610848051472.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2278813,
+        "display_up": [
+          -0.04194334087367101,
+          -0.9576656032432076,
+          0.28481107513785076
+        ],
+        "source_id": "fastcamo/gym/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "lab": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/lab/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 4576,
+        "source_time_range": [
+          1610771094059.0,
+          1610771246567.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2267283,
+        "display_up": [
+          -0.1557491574638423,
+          -0.04382190124310262,
+          0.9868241185341706
+        ],
+        "source_id": "fastcamo/lab/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/lab/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 4576,
+        "source_time_range": [
+          1610771094059.0,
+          1610771246567.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2257401,
+        "display_up": [
+          -0.11224121062864177,
+          -0.09388125161526172,
+          0.9892361807130635
+        ],
+        "source_id": "fastcamo/lab/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/lab/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 4576,
+        "source_time_range": [
+          1610771094059.0,
+          1610771246567.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2261630,
+        "display_up": [
+          0.13681284153878073,
+          -0.13332456795905281,
+          0.9815838252378737
+        ],
+        "source_id": "fastcamo/lab/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/lab/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 3760,
+        "source_time_range": [
+          1610771102459.0,
+          1610771236399.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2264443,
+        "display_up": [
+          -0.15589170984822814,
+          -0.0431759931485976,
+          0.9868300808225436
+        ],
+        "source_id": "fastcamo/lab/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/lab/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 4576,
+        "source_time_range": [
+          1610771094059.0,
+          1610771246567.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2266506,
+        "display_up": [
+          -0.9692354936953158,
+          -0.17219229074894782,
+          -0.17587601532848987
+        ],
+        "source_id": "fastcamo/lab/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/lab/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 4576,
+        "source_time_range": [
+          1610771094059.0,
+          1610771246567.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2253111,
+        "display_up": [
+          0.10466773063785717,
+          -0.006263175182279117,
+          0.9944875257134987
+        ],
+        "source_id": "fastcamo/lab/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/lab/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 4576,
+        "source_time_range": [
+          1610771094059.0,
+          1610771246567.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2254068,
+        "display_up": [
+          0.3406141564892675,
+          -0.9295161720485839,
+          0.1413565785496094
+        ],
+        "source_id": "fastcamo/lab/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/lab/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 4576,
+        "source_time_range": [
+          1610771094059.0,
+          1610771246567.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2264195,
+        "display_up": [
+          -0.05737681380193265,
+          -0.9906382925689919,
+          0.1238695867997087
+        ],
+        "source_id": "fastcamo/lab/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "lounge_1": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/lounge_1/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 1099,
+        "source_time_range": [
+          1610887636667.0,
+          1610887673289.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2241243,
+        "display_up": [
+          0.039912954273226796,
+          -0.11759324720025781,
+          0.9922594339657761
+        ],
+        "source_id": "fastcamo/lounge_1/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/lounge_1/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 1099,
+        "source_time_range": [
+          1610887636667.0,
+          1610887673289.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2240247,
+        "display_up": [
+          -0.339285532715891,
+          -0.21433665912015343,
+          -0.9159394760828388
+        ],
+        "source_id": "fastcamo/lounge_1/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/lounge_1/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 1099,
+        "source_time_range": [
+          1610887636667.0,
+          1610887673289.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2236622,
+        "display_up": [
+          0.985769421919389,
+          0.15293853779178881,
+          0.06977428227379454
+        ],
+        "source_id": "fastcamo/lounge_1/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/lounge_1/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 495,
+        "source_time_range": [
+          1610887656781.0,
+          1610887673289.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2254073,
+        "display_up": [
+          -0.2525037085683469,
+          -0.39327945314337476,
+          0.8840662582038065
+        ],
+        "source_id": "fastcamo/lounge_1/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/lounge_1/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 1099,
+        "source_time_range": [
+          1610887636667.0,
+          1610887673289.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2237938,
+        "display_up": [
+          -0.08173622772510955,
+          -0.05385309175413319,
+          -0.9951979871290888
+        ],
+        "source_id": "fastcamo/lounge_1/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/lounge_1/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 1099,
+        "source_time_range": [
+          1610887636667.0,
+          1610887673289.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2242060,
+        "display_up": [
+          0.048140202071606804,
+          0.11528157905373533,
+          -0.9921656507233972
+        ],
+        "source_id": "fastcamo/lounge_1/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/lounge_1/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 1099,
+        "source_time_range": [
+          1610887636667.0,
+          1610887673289.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2235638,
+        "display_up": [
+          -0.04240752643693084,
+          -0.9670206100921728,
+          0.2511428704113716
+        ],
+        "source_id": "fastcamo/lounge_1/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/lounge_1/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 879,
+        "source_time_range": [
+          1610887636667.0,
+          1610887673289.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2244998,
+        "display_up": [
+          -0.06847576905699569,
+          -0.9938257757461189,
+          0.08730061004757038
+        ],
+        "source_id": "fastcamo/lounge_1/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "lounge_2": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/lounge_2/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 2860,
+        "source_time_range": [
+          1610888843456.0,
+          1610888938762.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2200744,
+        "display_up": [
+          0.03941720993549287,
+          0.06525696139114538,
+          -0.997089671268786
+        ],
+        "source_id": "fastcamo/lounge_2/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/lounge_2/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 2860,
+        "source_time_range": [
+          1610888843456.0,
+          1610888938762.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2219273,
+        "display_up": [
+          0.1905606767469546,
+          0.23081079112897557,
+          -0.9541556514406647
+        ],
+        "source_id": "fastcamo/lounge_2/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/lounge_2/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 2860,
+        "source_time_range": [
+          1610888843456.0,
+          1610888938762.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2195813,
+        "display_up": [
+          0.29246397933312546,
+          0.02025231037845363,
+          0.9560620611220633
+        ],
+        "source_id": "fastcamo/lounge_2/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/lounge_2/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 1293,
+        "source_time_range": [
+          1610888843456.0,
+          1610888886513.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2199777,
+        "display_up": [
+          -0.26760169682032087,
+          0.11443257726077885,
+          0.9567102576644304
+        ],
+        "source_id": "fastcamo/lounge_2/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/lounge_2/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 2860,
+        "source_time_range": [
+          1610888843456.0,
+          1610888938762.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2199295,
+        "display_up": [
+          0.0033006406371983202,
+          -0.08525891393646202,
+          0.9963533627010845
+        ],
+        "source_id": "fastcamo/lounge_2/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/lounge_2/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 2860,
+        "source_time_range": [
+          1610888843456.0,
+          1610888938762.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2213953,
+        "display_up": [
+          -0.24499698366446127,
+          -0.21046808798983713,
+          0.9464035407442314
+        ],
+        "source_id": "fastcamo/lounge_2/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/lounge_2/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 2860,
+        "source_time_range": [
+          1610888843456.0,
+          1610888938762.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2195415,
+        "display_up": [
+          0.01730403809012998,
+          -0.9947297577947207,
+          -0.10106076995269525
+        ],
+        "source_id": "fastcamo/lounge_2/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/lounge_2/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 2288,
+        "source_time_range": [
+          1610888843456.0,
+          1610888938762.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2198452,
+        "display_up": [
+          0.00941730952955684,
+          -0.9762893754108349,
+          0.21626458272483376
+        ],
+        "source_id": "fastcamo/lounge_2/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "meeting_room": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/meeting_room/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 2600,
+        "source_time_range": [
+          1610854482266.0,
+          1610854568901.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2237397,
+        "display_up": [
+          0.03744055315112544,
+          -0.026556902801977863,
+          0.9989459123963139
+        ],
+        "source_id": "fastcamo/meeting_room/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/meeting_room/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 2600,
+        "source_time_range": [
+          1610854482266.0,
+          1610854568901.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2241104,
+        "display_up": [
+          -0.05478181468007777,
+          -0.28380170072911987,
+          0.9573168479890117
+        ],
+        "source_id": "fastcamo/meeting_room/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/meeting_room/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 2600,
+        "source_time_range": [
+          1610854482266.0,
+          1610854568901.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2230658,
+        "display_up": [
+          -0.28716441392528297,
+          0.28565565398616793,
+          0.9142961482586939
+        ],
+        "source_id": "fastcamo/meeting_room/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/meeting_room/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 1704,
+        "source_time_range": [
+          1610854512133.0,
+          1610854568901.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2237613,
+        "display_up": [
+          -0.03276399703546468,
+          0.19804623713605546,
+          0.9796449399933168
+        ],
+        "source_id": "fastcamo/meeting_room/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/meeting_room/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 2600,
+        "source_time_range": [
+          1610854482266.0,
+          1610854568901.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2240123,
+        "display_up": [
+          -0.07401997032019178,
+          -0.03211668663140583,
+          -0.996739465674766
+        ],
+        "source_id": "fastcamo/meeting_room/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/meeting_room/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 2600,
+        "source_time_range": [
+          1610854482266.0,
+          1610854568901.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2226258,
+        "display_up": [
+          0.08815185960749655,
+          0.21157626616124187,
+          0.9733780012127907
+        ],
+        "source_id": "fastcamo/meeting_room/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/meeting_room/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 2600,
+        "source_time_range": [
+          1610854482266.0,
+          1610854568901.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2222275,
+        "display_up": [
+          0.5222806148766881,
+          -0.8493518392339093,
+          -0.07631783876659498
+        ],
+        "source_id": "fastcamo/meeting_room/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/meeting_room/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 2080,
+        "source_time_range": [
+          1610854482266.0,
+          1610854568901.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2233149,
+        "display_up": [
+          -0.023533629093410304,
+          -0.9918120061118859,
+          0.1255193723455076
+        ],
+        "source_id": "fastcamo/meeting_room/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "office": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/office/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 1090,
+        "source_time_range": [
+          1610863459601.0,
+          1610863495900.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2247018,
+        "display_up": [
+          0.16326679869578217,
+          0.16863379728009123,
+          0.9720630611531991
+        ],
+        "source_id": "fastcamo/office/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/office/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 1090,
+        "source_time_range": [
+          1610863459601.0,
+          1610863495900.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2241543,
+        "display_up": [
+          0.461020588641128,
+          0.492430774409902,
+          -0.7382221544108875
+        ],
+        "source_id": "fastcamo/office/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/office/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 1090,
+        "source_time_range": [
+          1610863459601.0,
+          1610863495900.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2236696,
+        "display_up": [
+          -0.45593265683727546,
+          -0.883761082822386,
+          -0.10531742931683766
+        ],
+        "source_id": "fastcamo/office/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/office/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 339,
+        "source_time_range": [
+          1610863469364.0,
+          1610863480635.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2265345,
+        "display_up": [
+          0.4852940169855142,
+          0.06127271477074896,
+          0.87220145121565
+        ],
+        "source_id": "fastcamo/office/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/office/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 1090,
+        "source_time_range": [
+          1610863459601.0,
+          1610863495900.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2241985,
+        "display_up": [
+          -0.18325023508921698,
+          -0.8345458351655639,
+          -0.519569629931887
+        ],
+        "source_id": "fastcamo/office/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/office/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 1090,
+        "source_time_range": [
+          1610863459601.0,
+          1610863495900.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2238612,
+        "display_up": [
+          -0.514043809699226,
+          -0.8035322522992622,
+          0.30015809371859503
+        ],
+        "source_id": "fastcamo/office/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/office/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 1090,
+        "source_time_range": [
+          1610863459601.0,
+          1610863495900.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2239884,
+        "display_up": [
+          0.36372422414305794,
+          -0.8993322628834202,
+          0.2427059325779189
+        ],
+        "source_id": "fastcamo/office/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/office/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 872,
+        "source_time_range": [
+          1610863459601.0,
+          1610863495900.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2234874,
+        "display_up": [
+          0.5237805396482845,
+          -0.8518522893158819,
+          0.001274155815854101
+        ],
+        "source_id": "fastcamo/office/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "stairwell": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/stairwell/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 803,
+        "source_time_range": [
+          1610776907276.0,
+          1610776934009.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2191171,
+        "display_up": [
+          -0.07062999778236825,
+          0.0668345396273295,
+          0.9952610450158619
+        ],
+        "source_id": "fastcamo/stairwell/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/stairwell/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 803,
+        "source_time_range": [
+          1610776907276.0,
+          1610776934009.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2191950,
+        "display_up": [
+          0.5232243838151106,
+          0.45793876912512205,
+          0.7186990523949965
+        ],
+        "source_id": "fastcamo/stairwell/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/stairwell/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 803,
+        "source_time_range": [
+          1610776907276.0,
+          1610776934009.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2199336,
+        "display_up": [
+          0.03518729114875985,
+          0.17562235564735418,
+          0.9838285636931298
+        ],
+        "source_id": "fastcamo/stairwell/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/stairwell/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 192,
+        "source_time_range": [
+          1610776914543.0,
+          1610776920909.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2190067,
+        "display_up": [
+          0.4532293950368179,
+          -0.41724281765100657,
+          0.7877128579585387
+        ],
+        "source_id": "fastcamo/stairwell/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/stairwell/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 803,
+        "source_time_range": [
+          1610776907276.0,
+          1610776934009.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2194335,
+        "display_up": [
+          -0.05606012802935563,
+          0.10867985461041064,
+          0.9924948116978709
+        ],
+        "source_id": "fastcamo/stairwell/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/stairwell/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 803,
+        "source_time_range": [
+          1610776907276.0,
+          1610776934009.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2197946,
+        "display_up": [
+          0.5955030953280281,
+          0.20255476604893174,
+          0.7773979870089708
+        ],
+        "source_id": "fastcamo/stairwell/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/stairwell/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 803,
+        "source_time_range": [
+          1610776907276.0,
+          1610776934009.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2201863,
+        "display_up": [
+          -0.020437979985821943,
+          -0.9378144809638129,
+          -0.3465346855203288
+        ],
+        "source_id": "fastcamo/stairwell/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/stairwell/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 402,
+        "source_time_range": [
+          1610776907276.0,
+          1610776934009.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2188455,
+        "display_up": [
+          -0.03748407456562348,
+          -0.9833435252990013,
+          -0.17784953023972627
+        ],
+        "source_id": "fastcamo/stairwell/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "studio": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/studio/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 1309,
+        "source_time_range": [
+          1610761942197.0,
+          1610761985797.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2245862,
+        "display_up": [
+          0.028056922633677737,
+          0.030823906816552855,
+          0.9991309703241574
+        ],
+        "source_id": "fastcamo/studio/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/studio/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 1309,
+        "source_time_range": [
+          1610761942197.0,
+          1610761985797.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2250928,
+        "display_up": [
+          -0.5415229521780249,
+          -0.009131708008331517,
+          -0.8406363685763585
+        ],
+        "source_id": "fastcamo/studio/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/studio/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 1309,
+        "source_time_range": [
+          1610761942197.0,
+          1610761985797.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2255945,
+        "display_up": [
+          -0.08609249642738673,
+          0.07816179625059859,
+          0.993216399213072
+        ],
+        "source_id": "fastcamo/studio/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/studio/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 714,
+        "source_time_range": [
+          1610761942197.0,
+          1610761965963.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2267051,
+        "display_up": [
+          0.09199718154733572,
+          -0.13003127145879081,
+          0.9872326914310307
+        ],
+        "source_id": "fastcamo/studio/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/studio/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 1309,
+        "source_time_range": [
+          1610761942197.0,
+          1610761985797.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2248680,
+        "display_up": [
+          0.016924323597494923,
+          -0.0027039876766880235,
+          0.9998531170734086
+        ],
+        "source_id": "fastcamo/studio/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/studio/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 1309,
+        "source_time_range": [
+          1610761942197.0,
+          1610761985797.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2246082,
+        "display_up": [
+          0.02899827565661046,
+          0.0280752902285002,
+          0.9991851070184786
+        ],
+        "source_id": "fastcamo/studio/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/studio/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 1309,
+        "source_time_range": [
+          1610761942197.0,
+          1610761985797.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2247359,
+        "display_up": [
+          0.037972659606060756,
+          -0.9992440962871134,
+          0.008325452407667777
+        ],
+        "source_id": "fastcamo/studio/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/studio/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 524,
+        "source_time_range": [
+          1610761942197.0,
+          1610761985797.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2255022,
+        "display_up": [
+          0.0423757485570613,
+          -0.998984689558686,
+          0.015293330623654842
+        ],
+        "source_id": "fastcamo/studio/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "workshop_1": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/workshop_1/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 2147,
+        "source_time_range": [
+          1610764363428.0,
+          1610764434966.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2252033,
+        "display_up": [
+          -0.00031032111736789455,
+          0.07556365102458976,
+          0.997140932037512
+        ],
+        "source_id": "fastcamo/workshop_1/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/workshop_1/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 2147,
+        "source_time_range": [
+          1610764363428.0,
+          1610764434966.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2243670,
+        "display_up": [
+          0.26596032686232784,
+          -0.05676517158117387,
+          0.962311186587085
+        ],
+        "source_id": "fastcamo/workshop_1/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/workshop_1/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 2147,
+        "source_time_range": [
+          1610764363428.0,
+          1610764434966.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2248463,
+        "display_up": [
+          0.4867608218794096,
+          0.36897464995937507,
+          0.7917838151734591
+        ],
+        "source_id": "fastcamo/workshop_1/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/workshop_1/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 508,
+        "source_time_range": [
+          1610764363428.0,
+          1610764434966.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2256545,
+        "display_up": [
+          0.138444220547796,
+          -0.3497428449933798,
+          0.9265598416577582
+        ],
+        "source_id": "fastcamo/workshop_1/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/workshop_1/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 2147,
+        "source_time_range": [
+          1610764363428.0,
+          1610764434966.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2254117,
+        "display_up": [
+          0.007955908233558892,
+          0.25252820317600017,
+          0.9675568252691311
+        ],
+        "source_id": "fastcamo/workshop_1/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/workshop_1/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 2147,
+        "source_time_range": [
+          1610764363428.0,
+          1610764434966.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2247798,
+        "display_up": [
+          -0.0697312070863132,
+          0.025314686400403446,
+          0.9972445664984768
+        ],
+        "source_id": "fastcamo/workshop_1/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/workshop_1/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 2147,
+        "source_time_range": [
+          1610764363428.0,
+          1610764434966.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2242852,
+        "display_up": [
+          -0.020816627204020468,
+          -0.9997339450601103,
+          -0.009935146017924515
+        ],
+        "source_id": "fastcamo/workshop_1/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/workshop_1/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 644,
+        "source_time_range": [
+          1610764363428.0,
+          1610764434966.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2223238,
+        "display_up": [
+          -0.005586765641332263,
+          -0.8789930425250898,
+          -0.4768018658123671
+        ],
+        "source_id": "fastcamo/workshop_1/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    },
+    "workshop_2": {
+      "ours": {
+        "status": "ready",
+        "method": "ours",
+        "cloud": "assets/3d/fastcamo/workshop_2/ours.rcp.gz",
+        "trajectory": [],
+        "frames": 3124,
+        "source_time_range": [
+          1610885092009.0,
+          1610885196107.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2223116,
+        "display_up": [
+          0.016993780631885114,
+          0.021305238832103453,
+          0.9996285801327124
+        ],
+        "source_id": "fastcamo/workshop_2/ours",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "lingbot": {
+        "status": "ready",
+        "method": "lingbot",
+        "cloud": "assets/3d/fastcamo/workshop_2/lingbot.rcp.gz",
+        "trajectory": [],
+        "frames": 3124,
+        "source_time_range": [
+          1610885092009.0,
+          1610885196107.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2232589,
+        "display_up": [
+          -0.07757200388137876,
+          -0.20751642503121212,
+          0.9751510229477753
+        ],
+        "source_id": "fastcamo/workshop_2/lingbot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "abot": {
+        "status": "ready",
+        "method": "abot",
+        "cloud": "assets/3d/fastcamo/workshop_2/abot.rcp.gz",
+        "trajectory": [],
+        "frames": 3124,
+        "source_time_range": [
+          1610885092009.0,
+          1610885196107.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2235146,
+        "display_up": [
+          -0.06940144067411885,
+          -0.1539931924434279,
+          0.9856315420650043
+        ],
+        "source_id": "fastcamo/workshop_2/abot",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "scarf": {
+        "status": "ready",
+        "method": "scarf",
+        "cloud": "assets/3d/fastcamo/workshop_2/scarf.rcp.gz",
+        "trajectory": [],
+        "frames": 718,
+        "source_time_range": [
+          1610885130507.0,
+          1610885154413.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2247056,
+        "display_up": [
+          0.000955249888088549,
+          -0.052985249056943934,
+          0.9985948382001705
+        ],
+        "source_id": "fastcamo/workshop_2/scarf",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_rgbd": {
+        "status": "ready",
+        "method": "vggt_rgbd",
+        "cloud": "assets/3d/fastcamo/workshop_2/vggt_rgbd.rcp.gz",
+        "trajectory": [],
+        "frames": 3124,
+        "source_time_range": [
+          1610885092009.0,
+          1610885196107.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2230109,
+        "display_up": [
+          -0.04134609645201797,
+          0.20543627662478803,
+          0.9777967255798744
+        ],
+        "source_id": "fastcamo/workshop_2/vggt_rgbd",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "vggt_pi3x": {
+        "status": "ready",
+        "method": "vggt_pi3x",
+        "cloud": "assets/3d/fastcamo/workshop_2/vggt_pi3x.rcp.gz",
+        "trajectory": [],
+        "frames": 3124,
+        "source_time_range": [
+          1610885092009.0,
+          1610885196107.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2222939,
+        "display_up": [
+          0.05906206429265908,
+          0.6063785442805102,
+          0.7929796552230954
+        ],
+        "source_id": "fastcamo/workshop_2/vggt_pi3x",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "twodgs": {
+        "status": "ready",
+        "method": "twodgs",
+        "cloud": "assets/3d/fastcamo/workshop_2/twodgs.rcp.gz",
+        "trajectory": [],
+        "frames": 3124,
+        "source_time_range": [
+          1610885092009.0,
+          1610885196107.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2227620,
+        "display_up": [
+          -0.4666719524277397,
+          0.38306022477144425,
+          -0.7971713448282822
+        ],
+        "source_id": "fastcamo/workshop_2/twodgs",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      },
+      "profusion": {
+        "status": "ready",
+        "method": "profusion",
+        "cloud": "assets/3d/fastcamo/workshop_2/profusion.rcp.gz",
+        "trajectory": [],
+        "frames": 625,
+        "source_time_range": [
+          1610885092009.0,
+          1610885196107.0
+        ],
+        "sampled_points": 260000,
+        "compressed_bytes": 2224311,
+        "display_up": [
+          0.09298870406835126,
+          -0.9802237161976648,
+          -0.17468419252848372
+        ],
+        "source_id": "fastcamo/workshop_2/profusion",
+        "cloud_role": "sensor_RGB_D_backprojection_with_inferred_poses"
+      }
+    }
+  }
+}
